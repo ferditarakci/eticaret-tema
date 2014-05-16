@@ -1,0 +1,183 @@
+﻿@charset "utf-8";
+
+/*
+ * E-Ticaret Teması - 16/05/2014
+ * Front-End Web Developer : Ferdi Tarakci
+ * www.ferditarakci.com
+*/
+
+* {
+	outline: none;
+	-moz-outline: none;
+	-moz-user-focus: none;
+}
+
+html, body, div, p, span, h1, h2, h3, h4, h5, h6, a, img, iframe, pre, del, s, strike, ins, u, em, i, strong, b,
+address, abbr, acronym, dfn, code, kbd, var, object, applet, blockquote, small, ol, ul, li, dl, dt, dd,
+fieldset, form, label, legend, sub, sup, q, samp, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, figure, figcaption, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+article, aside, figure, figcaption, footer, header, hgroup, nav, section {display: block;}
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%;
+}
+
+body {
+	min-width: 960px;
+	line-height: 1.7em;
+	overflow-y: scroll;
+}
+.ie67 body {
+	overflow-y: hidden;
+}
+
+a, a: link {
+	text-decoration: none
+}
+a: hover {
+	text-decoration: underline
+}
+
+a img {
+	border: 0;
+	text-decoration: none
+}
+
+::-moz-selection {
+	color: #fff;
+	background-color: #4B4B4B
+}
+::-webkit-selection {
+	color: #fff;
+	background-color: #4B4B4B
+}
+::selection {
+	color: #fff;
+	background-color: #4B4B4B
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+.ie67 table {
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 1px
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 15px;
+}
+h3 {
+	font-size: 13px;
+}
+h4 {
+	font-size: 12px;
+}
+h5 {
+	font-size: 11px;
+}
+h6 {
+	font-size: 11px;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+ul, ol {
+	margin: 10px 0;
+	padding-left: 30px;
+}
+
+nav * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: inherit;
+}
+
+fieldset {
+	margin: 10px 0 10px;
+	padding: 0 10px 10px;
+	border: 1px solid #c8c8c8;
+}
+
+legend {
+	padding: 0 10px 0;
+	background: #fff;
+}
+
+strong, b {font-weight: bold}
+
+em, i {font-style: italic}
+
+svg {
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow:  hidden;
+}
+
+/* FireFox outline none */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+}
+
+textarea {
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 5px;
+	resize: vertical;
+}
+
+select,
+select option {padding: 0}
+
+button,
+input[type="button"],
+input[type="submit"] {
+	padding: 2px 5px;
+	cursor: pointer;
+	overflow: visible !important;
+}
+
+select, button, input, textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box; /* IE8 Only */
+	box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+input::-ms-clear {display: none;}
+
+/*
+ * E-Ticaret Teması - 16/05/2014
+ * Front-End Web Developer : Ferdi Tarakci
+ * www.ferditarakci.com
+*/

@@ -1,0 +1,761 @@
+﻿@charset "utf-8";
+
+
+#ust .ust-menu:before {
+	background-image: url(../../images/altin.png);
+}
+#ust .ust-menu .fb:before {
+	background-image: url(../../images/altin.png);
+}
+#ust .ust-menu .tel:before {
+	background-image: url(../../images/altin.png);
+}
+#ust .urun-arama button span {
+	border-color: #D6B717;
+	background: #f3d43e;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZDQzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYWFiMTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #f3d43e 0%, #caab13 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3d43e), color-stop(100%,#caab13));
+	background: -webkit-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -o-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -ms-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: linear-gradient(to bottom,  #f3d43e 0%,#caab13 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3d43e', endColorstr='#caab13',GradientType=0 );
+}
+#ust .urun-arama button span:hover {
+	background: #caab13;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NhYWIxMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Q0M2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #caab13 0%, #f3d43e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#caab13), color-stop(100%,#f3d43e));
+	background: -webkit-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -o-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -ms-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: linear-gradient(to bottom,  #caab13 0%,#f3d43e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caab13', endColorstr='#f3d43e',GradientType=0 );
+}
+
+
+
+
+/*
+	// HEADER URUN SEPET
+*/
+#ust .header-sepet .sepet-buton {
+	background-image: url(../../images/altin.png);
+}
+#ust .header-sepet .sepet-buton a span {
+	background-color: #B89D1D;
+}
+#ust .header-sepet .sepet-listesi li .urun-adi {
+	color: #A79619;
+}
+#ust .header-sepet .sepet-listesi a.buton {
+	border-color: #D6B717;
+	background: #f3d43e;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZDQzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYWFiMTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #f3d43e 0%, #caab13 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3d43e), color-stop(100%,#caab13));
+	background: -webkit-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -o-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -ms-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: linear-gradient(to bottom,  #f3d43e 0%,#caab13 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3d43e', endColorstr='#caab13',GradientType=0 );
+}
+#ust .header-sepet .sepet-listesi a.buton:hover {
+	background: #caab13;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NhYWIxMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Q0M2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #caab13 0%, #f3d43e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#caab13), color-stop(100%,#f3d43e));
+	background: -webkit-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -o-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -ms-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: linear-gradient(to bottom,  #caab13 0%,#f3d43e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caab13', endColorstr='#f3d43e',GradientType=0 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	// HEADER TUM KATEGORILER
+*/
+#ust .tum-kategoriler > div a {
+	border-color: #D6B717;
+	background: #f3d43e;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZDQzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYWFiMTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #f3d43e 0%, #caab13 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3d43e), color-stop(100%,#caab13));
+	background: -webkit-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -o-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -ms-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: linear-gradient(to bottom,  #f3d43e 0%,#caab13 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3d43e', endColorstr='#caab13',GradientType=0 );
+}
+#ust .tum-kategoriler > div a:hover,
+#ust .tum-kategoriler > div a.current {
+	background: #caab13;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NhYWIxMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Q0M2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #caab13 0%, #f3d43e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#caab13), color-stop(100%,#f3d43e));
+	background: -webkit-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -o-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -ms-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: linear-gradient(to bottom,  #caab13 0%,#f3d43e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caab13', endColorstr='#f3d43e',GradientType=0 );
+}
+#ust .tum-kategoriler > div a:after {
+	background-image: url(../../images/altin.png);
+}
+#ust .tum-kategoriler > ul {
+	border-color: #D6B717;
+	border-top-color: #D6B717;
+}
+#ust .tum-kategoriler > ul a {
+	border-top-color: #FAD829;
+	border-bottom-color: #D6B717;
+	background-color: #f3d43e;
+}
+#ust .tum-kategoriler > ul a:hover,
+#ust .tum-kategoriler > ul a.selected:hover {
+	background: #caab13;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NhYWIxMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Q0M2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #caab13 0%, #f3d43e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#caab13), color-stop(100%,#f3d43e));
+	background: -webkit-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -o-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -ms-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: linear-gradient(to bottom,  #caab13 0%,#f3d43e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caab13', endColorstr='#f3d43e',GradientType=0 );
+}
+/*
+======================================================
+	// ÜST
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	SLAYT
+======================================================
+*/
+#slayt .slides-pagination a {
+	background-image: url(../../images/altin.png);
+}
+#slayt .slide .prev,
+#slayt .slide .next {
+	background-image: url(../../images/altin.png);
+}
+/*
+======================================================
+	// SLAYT
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+.jqTransformSelectWrapper a.jqTransformSelectOpen {
+	background-image: url(../../images/altin.png);
+}
+.jqTransformCheckbox {
+	background-image: url(../../images/altin.png);
+}
+
+
+
+
+
+
+
+/*
+======================================================
+	SOL BLOK
+======================================================
+*/
+.sol-blok .kategoriler:before {
+	background-image: url(../../images/altin.png);
+}
+.sol-blok .kategoriler:after {
+	background-image: url(../../images/altin.png);
+}
+.sol-blok .kategoriler > ul > li > a:before {
+	background-image: url(../../images/altin.png);
+}
+.sol-blok .kategoriler > ul > li > a:after {
+	background-image: url(../../images/altin.png);
+}
+/*
+======================================================
+	// SOL BLOK
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	SAĞ BLOK
+======================================================
+*/
+
+/*
+	// HAFTANIN FIRSATLARI
+*/
+.sag-blok .haftanin-firsatlari h6 {
+	background-image: url(../../images/altin.png);
+}
+.sag-blok .haftanin-firsatlari a.prev,
+.sag-blok .haftanin-firsatlari a.next {
+	background-image: url(../../images/altin.png);
+}
+
+.sag-blok .haftanin-firsatlari a.prev:hover,
+.sag-blok .haftanin-firsatlari a.next:hover {
+	background-color: #8414b9;
+}
+.sag-blok .haftanin-firsatlari .indirim {
+	background-image: url(../../images/altin.png);
+}
+.sag-blok .haftanin-firsatlari .fiyat {
+	color: #caab13;
+}
+.sag-blok .haftanin-firsatlari a.incele {
+	background-color: #9916d7;
+}
+.sag-blok .haftanin-firsatlari a.incele:hover {
+	background-color: #8414b9;
+}
+/*
+======================================================
+	// SAĞ BLOK
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	ORTA BLOK
+======================================================
+*/
+
+/*
+	// URUN FILTRELEME (NAV)
+*/
+nav.urun-filtrele {
+	border-bottom-color: #f3d43e;
+}
+nav.urun-filtrele a:hover,
+nav.urun-filtrele a.current {
+	background: #caab13;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NhYWIxMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Q0M2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #caab13 0%, #f3d43e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#caab13), color-stop(100%,#f3d43e));
+	background: -webkit-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -o-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -ms-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: linear-gradient(to bottom,  #caab13 0%,#f3d43e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caab13', endColorstr='#f3d43e',GradientType=0 );
+}
+
+
+
+
+
+
+/*
+	// URUN FILTRELEME (FORM)
+*/
+form.urun-filtrele {
+	background-color: #caab13;
+}
+
+
+
+
+
+/*
+	// URUN LISTESI
+*/
+.urunler li .fiyat {
+	color: #caab13;
+}
+.urunler li .indirim {
+	background-image: url(../../images/altin.png);
+}
+.urunler li .incele,
+.urunler li .sepete-ekle {
+	background-image: url(../../images/altin.png);
+}
+/*
+======================================================
+	// ORTA BLOK
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	MARKA LOGOLAR - CAROUSEL
+======================================================
+*/
+.marka-logo a.prev,
+.marka-logo a.next {
+	background-color: #f3d43e;
+	background-image: url(../../images/altin.png);
+}
+.marka-logo a.prev:hover,
+.marka-logo a.next:hover {
+	background-color: #caab13;
+}
+/*
+======================================================
+	// MARKA LOGOLAR - CAROUSEL
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	SAYFALAMA
+======================================================
+*/
+.sayfala a:hover,
+.sayfala a.current {
+	border-color: #AC9312;
+	background: #caab13;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NhYWIxMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2Q0M2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #caab13 0%, #f3d43e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#caab13), color-stop(100%,#f3d43e));
+	background: -webkit-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -o-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: -ms-linear-gradient(top,  #caab13 0%,#f3d43e 100%);
+	background: linear-gradient(to bottom,  #caab13 0%,#f3d43e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caab13', endColorstr='#f3d43e',GradientType=0 );
+}
+/*
+======================================================
+	// SAYFALAMA
+======================================================
+*/
+
+
+
+
+
+
+
+
+/*
+======================================================
+	KATEGORI SAYFASI
+======================================================
+*/
+.kategori header h1 {
+	border-color: #D6B717;
+	background: #f3d43e;
+	background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZDQzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYWFiMTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
+	background: -moz-linear-gradient(top,  #f3d43e 0%, #caab13 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3d43e), color-stop(100%,#caab13));
+	background: -webkit-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -o-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: -ms-linear-gradient(top,  #f3d43e 0%,#caab13 100%);
+	background: linear-gradient(to bottom,  #f3d43e 0%,#caab13 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3d43e', endColorstr='#caab13',GradientType=0 );
+}
+
+/*
+	// ALT KATEGORILER
+*/
+.kategori .ak-wrap {
+	background-color: #caab13;
+}
+.kategori .alt-kategoriler {
+	border-right-color: #B19613;
+}
+.kategori .alt-kategoriler > h5 {
+	border-bottom-color: #B19613;
+}
+.kategori .alt-kategoriler a:before {
+	background-image: url(../../images/altin.png);
+}
+
+
+/*
+	// FIRSAT URUNU
+*/
+.kategori .firsat-urunu > h5 {
+	border-bottom-color: #B19613;
+}
+.kategori .firsat-urunu a.detay-buton:before {
+	background-image: url(../../images/altin.png);
+}
+.kategori .firsat-urunu a.detay-buton:after {
+	background-image: url(../../images/altin.png);
+}
+.kategori .firsat-urunu .urun .resim {
+	background-color: #b71661;
+}
+/*
+======================================================
+	// KATEGORI SAYFASI
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	SEPET SAYFASI
+======================================================
+*/
+.sepetim table tbody td .adet {
+	background-image: url(../../images/altin.png);
+}
+.sepetim table tbody td .adet .eksi:hover,
+.sepetim table tbody td .adet .arti:hover {
+	background-color: #caab13;
+}
+.sepetim table tbody td .fiyat {
+	color: #caab13;
+}
+form.sepetim-form button {
+	background-image: url(../../images/altin.png);
+}
+/*
+======================================================
+	// SEPET SAYFASI
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	GIRIS ve KAYDOL SAYFASI
+======================================================
+*/
+.giris-kaydol .kaydol {
+	background-color: #caab13;
+}
+.giris-kaydol .kaydol h6 {
+	border-bottom-color: #CECE1E;
+}
+.giris-kaydol .kaydol form {
+	border-top-color: #B19613;
+}
+.giris-kaydol .kaydol form label input[type="text"],
+.giris-kaydol .kaydol form label input[type="password"] {
+	border-color: #AA9216;
+}
+.giris-kaydol .kaydol .sozlesme a {
+	color: #66580F;
+}
+/*
+======================================================
+	// GIRIS ve KAYDOL SAYFASI
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	ÜRÜN DETAY SAYFASI
+======================================================
+*/
+#urun-galeri .prev-bg,
+#urun-galeri .next-bg {
+	background-image: url(../../images/altin.png);
+}
+#urun-galeri .prev,
+#urun-galeri .next {
+	background-image: url(../../images/altin.png);
+}
+
+
+
+
+
+/*
+	// URUN DETAY - UCRETLENDIRME
+*/
+.urun-detay .ucretlendirme .fiyat li > strong span {
+	color: #caab13;
+}
+
+
+/*
+	// URUN DETAY - BILGI BUTONLARI
+*/
+.urun-detay .ucretlendirme .bilgi-ikonlari .ikon {
+	background-image: url(../../images/altin.png);
+}
+.urun-detay .ucretlendirme .puan-taksit-ikon .puan {
+	background-image: url(../../images/altin.png);
+}
+.urun-detay .ucretlendirme .puan-taksit-ikon .puan span {
+	background-image: url(../../images/altin.png);
+}
+
+
+
+
+
+
+/*
+	// URUN DETAY - SEPETE EKLE BUTONU ve SECENEKLER
+*/
+.urun-detay .sepet-secenek .sepet-buton {
+	background-image: url(../../images/altin.png);
+}
+.urun-detay .secenekler h6 {
+	color: #caab13;
+}
+.urun-detay .secenekler h6:before {
+	background-image: url(../../images/altin.png);
+}
+.urun-detay .sepet-secenek input[type="submit"].buton {
+	background-image: url(../../images/altin.png);
+}
+
+
+/*
+	// URUN DETAY - TAB MENU
+*/
+.urun-detay-menu .menu a.current {
+	background-color: #caab13;
+}
+.urun-detay-menu .menu a.current:before {
+	background-image: url(../../images/altin.png);
+}
+.urun-detay-menu .menu a.current:after {
+	background-image: url(../../images/altin.png);
+}
+
+
+
+
+
+
+
+
+/*
+	// URUN DETAY - OZELLIK LISTESI
+*/
+
+.urun-detay-ozellikler li > span {
+	color: #caab13;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.urun-detay-benzer-urunler li .incele {
+	background-image: url(../../images/altin.png);
+}
+.urun-detay-benzer-urunler .prev,
+.urun-detay-benzer-urunler .next {
+	background-image: url(../../images/altin.png);
+}
+/*
+======================================================
+	// ÜRÜN DETAY SAYFASI
+======================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+	ALT KISIM
+======================================================
+*/
+
+#alt .alan nav a:before {
+	background-image: url(../../images/altin.png);
+}
+#alt .ebulten {
+	background-image: url(../../images/altin.png);
+}
+#alt .sosyal a {
+	background-image: url(../../images/altin.png);
+}
+/*
+======================================================
+	// ALT KISIM
+======================================================
+*/
+
+
+
+

@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+/*
+ * Bu sitenin kodlaması "Ferdi Tarakcı" tarafından yapılmıştır.
+ * www.ferditarakci.com
+*/
+
+#fancybox-thumbs {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	z-index: 8050;
+}
+
+#fancybox-thumbs.bottom {
+	bottom: 2px;
+}
+
+#fancybox-thumbs.top {
+	top: 2px;
+}
+
+#fancybox-thumbs ul {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#fancybox-thumbs ul li {
+	float: left;
+	padding: 1px;
+	-moz-opacity: .5;
+	opacity: .5;
+	filter: Alpha(Opacity=50);
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+#fancybox-thumbs ul li.active {
+	-moz-opacity: .75;
+	opacity: .75;
+	filter: Alpha(Opacity=75);
+	padding: 0;
+	border: 1px solid #fff;
+}
+
+#fancybox-thumbs ul li:hover {
+	-moz-opacity: 1;
+	opacity: 1;
+	filter: Alpha(Opacity=100);
+}
+
+#fancybox-thumbs ul li a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #222;
+	background: #111;
+	outline: none;
+}
+
+#fancybox-thumbs ul li img {
+	display: block;
+	position: relative;
+	border: 0;
+	padding: 0;
+	max-width: none;
+}
+
+/*
+ * Bu sitenin kodlaması "Ferdi Tarakcı" tarafından yapılmıştır.
+ * www.ferditarakci.com
+*/
